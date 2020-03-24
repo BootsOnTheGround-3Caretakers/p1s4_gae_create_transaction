@@ -1,0 +1,17 @@
+dispatch:
+  - url: "*/p1s1*"
+    service: create-entities
+
+  - url: "*/p1s2*"
+    service: modify-joins
+
+  - url: "*/p1s3*"
+    service: web-requests
+
+  - url: "*/p1s4*"
+    service: create-transaction
+
+  - url: "*/p1s5*"
+    service: json-requests
+
+
